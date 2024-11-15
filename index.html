@@ -1,0 +1,139 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Venia</title>
+  <link rel="stylesheet" href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" />
+
+
+  <link rel="stylesheet" href="style.css">
+  <!-------------------------Font Awesome Icons --------------->
+  <script src="https://kit.fontawesome.com/dad03e859c.js" crossorigin="anonymous"></script>
+  <!----------x---------------Font Awesome Icons --------x------->
+
+  <!----------x---------------Google font --------x------->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link
+    href="https://fonts.googleapis.com/css2?family=Alkatra&family=Berkshire+Swash&family=Comic+Neue:wght@700&family=Gentium+Book+Plus:wght@400;700&family=Lato:ital,wght@0,400;0,700;0,900;1,700&family=Lexend+Deca:wght@500&family=Lexend:wght@500&family=Montserrat:wght@500&family=Open+Sans:wght@500;800&family=Roboto:wght@100;400&family=Sue+Ellen+Francisco&family=Work+Sans:wght@400;700;900&display=swap"
+    rel="stylesheet">
+
+  <link href="https://fonts.googleapis.com/css2?family=Spartan:wght@100;200;300;400;500;600;700;800;900;&display:swap">
+  <!----------x---------------Google font --------x----------------->
+</head>
+<body>
+  <section class="header">
+    <a href="#" class="logo-name">
+      VENIA
+    </a>
+    <div>
+      <ul class="navbar">
+        <li><a href="index.html" class="active">Home</a></li>
+        <li><a href="shop.html">Women</a></li>
+        <li><a href="blog.html">Men</a></li>
+        <li><a href="about.html">Smart Gear</a></li>
+        <li><a href="contact.html">Accessories</a></li>
+        <li><a href="cart.html" id="lg-bag"><i class="fal fa-shopping-bag"></i></a>
+          <span class="quantity">0</span>
+        </li>
+        <li><a href="#" class="close"><i class="far fa-times"></i></a></li>
+      </ul>
+    </div>
+    <div id="mobile">
+      <a href="cart.html"><i class="fal fa-shopping-bag"></i>
+        <span class="quantity">0</span>
+      </a>
+      <i class="bar fas fa-outdent"></i>
+    </div>
+  </section>
+
+  <section class="hero">
+    <h2>Super value deals</h2>
+    <h1>On all Products</h1>
+    <p>Save more with coupons and up to 70% off!</p>
+    <button>Shop Now</button>
+  </section>
+
+  <section class="main-top-container">
+    <div class="search-container">
+      <input type="text" class="search-products" placeholder="What are you looking for?">
+      <button type="submit" class="search-button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+    <div class="sort-container">
+      <select class="sort-dropdown">
+        <option value="id">Sort by Id</option>
+        <option value="price">Sort by Price</option>
+      </select>
+    </div>
+  </section>
+
+  <section>
+    <div class="error"></div>
+    <div class="no-products"></div>
+    <div class="main-container">
+      <div class="filter-container">
+        <h5 class="filter-caption">Filters</h5>
+        <hr />
+        <h6 class="category-caption">Categories</h6>
+        <div class="categories-list"></div>
+        <hr />
+      </div>
+      <div class="product-container"></div>
+    </div>
+    <div class="loading"></div>
+    <div class="product-show-more">
+      <a class="show-more"></a>
+    </div>
+  </section>
+
+  <footer class="footer-container">
+    <div class="section">
+      <div class="col">
+        <h4>Account</h4>
+        <a href="#">Sign In</a>
+        <a href="#">Register</a>
+        <a href="#">Order Status</a>
+      </div>
+
+      <div class="col">
+        <h4>About Us</h4>
+        <a href="#">Our Story</a>
+        <a href="#">Careers</a>
+      </div>
+
+      <div class="col">
+        <h4>Help</h4>
+        <a href="#">Contact Us</a>
+        <a href="#">Order Status</a>
+        <a href="#">Returns</a>
+      </div>
+
+      <div class="col install">
+        <h4>Follow Us</h4>
+        <p>From App Store or Google Play</p>
+
+        <div class="row">
+          <img src="https://i.postimg.cc/Y2s5mLdR/app.jpg" alt="">
+          <img src="https://i.postimg.cc/7YvyWTS6/play.jpg" alt="">
+        </div>
+      </div>
+    </div>
+
+    <div class="coypright">
+      <p> © 2023 All rights reserved! made by Venia </p>
+    </div>
+
+  </footer>
+
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css"
+    integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ=="
+    crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+  <script src="script.js"></script>
+</body>
+
+</html>
